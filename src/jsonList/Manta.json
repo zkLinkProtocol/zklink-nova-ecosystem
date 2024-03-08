@@ -1,0 +1,11 @@
+{
+    "name": "Manta",
+    "description": "Manta Network | The Modular Blockchain for ZK Applications",
+    "logo": "Manta.svg",
+    "bannerImg": "manta.jpeg",
+    "type": "Network",
+    "url": "https://manta.network/",
+    "tiwwerUrl": "https://twitter.com/mantanetwork",
+    "discordUrl": "https://discord.com/invite/mantanetwork",
+    "status": "Live"
+}

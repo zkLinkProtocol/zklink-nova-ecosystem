@@ -1,0 +1,11 @@
+{
+    "name": "Lido",
+    "description": "Lido is a liquid staking solution for Ethereum (ETH), Solana (SOL) and Polygon (MATIC).",
+    "logo": "Frame 2.svg",
+    "bannerImg": "Lido.jpeg",
+    "type": "Yield",
+    "url": "https://lido.fi/",
+    "tiwwerUrl": "https://twitter.com/lidofinance",
+    "discordUrl": "https://discord.com/invite/lido",
+    "status": "Live"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "L2Beat",
+    "description": "L2BEAT is an analytics and research website about Ethereum layer 2 scaling.",
+    "logo": "L2Beat.svg",
+    "bannerImg": "L2Beat.jpeg",
+    "type": "Tools",
+    "url": "https://l2beat.com/scaling/summary",
+    "tiwwerUrl": "https://twitter.com/l2beat",
+    "discordUrl": "https://discord.com/invite/eaVKXPmtWk",
+    "status": "Live"
+}

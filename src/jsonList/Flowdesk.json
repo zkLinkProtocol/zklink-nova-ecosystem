@@ -1,0 +1,11 @@
+{
+    "name": "Flowdesk",
+    "description": "Flowdesk is the leading market making as a service infrastructure provider for token issuers, exchanges & institutions.",
+    "logo": "Flowdesk.svg",
+    "bannerImg": "Flowdesk.jpeg",
+    "type": "Liquidity",
+    "url": "https://www.flowdesk.co/",
+    "tiwwerUrl": "https://twitter.com/flowdesk_co",
+    "discordUrl": "",
+    "status": "Live"
+}

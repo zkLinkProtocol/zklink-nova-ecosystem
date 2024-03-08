@@ -1,0 +1,11 @@
+{
+    "name": "Mountain Protocol",
+    "description": "Mountain Protocol is the issuer of USDM, the first permissionless yield-bearing stablecoin.",
+    "logo": "Mountain.svg",
+    "bannerImg": "Mountain.jpeg",
+    "type": "Yield",
+    "url": "https://mountainprotocol.com/",
+    "tiwwerUrl": "https://twitter.com/MountainUSDM",
+    "discordUrl": "",
+    "status": "Live"
+}

@@ -1,0 +1,191 @@
+<script setup lang="ts">
+import selecttype from './selecttype.vue'
+import listbox from './listbox.vue'
+import DocumentationIcon from './icons/IconDocumentation.vue'
+import { ref } from 'vue';
+const jsonList = import.meta.glob('../jsonList/*.json')
+const searchList = (item:any) => {
+  if (item.type && item.type !=='All') {
+    dappArr.value = arr.filter((i:any) => i.type === item.type)
+  } else if (!item.value || (item.value && !item.value.trim())) {
+    dappArr.value = arr
+  }
+  if (item.value && item.value.trim()) {
+    dappArr.value = arr.filter((i:any) => i.name.includes(item.value))
+  } else if (!item.type || item.type ==='All') {
+    dappArr.value = arr
+  }
+};
+let dappArr:any = ref([])
+let arr:any = []
+Object.keys(jsonList).map(async(i)=> {
+  const dapp = jsonList[i]
+  arr = []
+  console.log(dapp)
+  await dapp().then((res:any)=> {
+    arr.push(res.default)
+    if (arr.length === Object.keys(jsonList).length) {
+      dappArr.value = arr
+    }
+  })
+})
+</script>
+
+<template>
+  <selecttype @searchList="searchList"/>
+  <div class="box">
+    <div v-for="i in dappArr" class="listbox">
+      <div class="header">
+        <img :src="'/src/assets/banner/'+(i.bannerImg || 'default.jpg')">
+        <div class="type">{{ i.type }}</div>
+        <!-- <div class="status">{{ i.status }}</div> -->
+      </div>
+      <div class="logo">
+        <img :src="'/src/assets/logo/'+i.logo">
+      </div>
+      <div class="name">
+        <div class="title">{{ i.name }}</div>
+        <div class="description">{{i.description }}</div>
+      </div>
+      <div class="link">
+        <a :href="i.url" target="_blank" rel="noopener" v-if="i.url">
+          <img src="../assets/image/link.svg" alt="">
+        </a>
+        <a :href="i.tiwwerUrl" target="_blank" rel="noopener" v-if="i.tiwwerUrl">
+          <img src="../assets/image/tiwwer.svg" alt="">
+        </a>
+        <a :href="i.discordUrl" target="_blank" rel="noopener" v-if="i.discordUrl">
+          <img src="../assets/image/discord-logo.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+</template>.
+<style scoped>
+.box{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  flex-wrap: wrap;
+}
+.listbox {
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #202020;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  .header{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    height: 115px;
+    img{
+      max-width: 100%;
+      max-height: 115px;
+      border-radius: 8px;
+      position: absolute; /* 相对定位 */
+      top: 50%; /* 将元素向上移动自身高度的一半 */
+      left: 50%; /* 将元素向左移动自身宽度的一半 */
+      transform: translate(-50%, -50%); /* 根据自身大小调整位置 */
+    }
+    div{
+      position: absolute;
+      top: 5px;
+      padding: 4px 12px;
+      border-radius: 4px;
+      background-color: hsla(160, 100%, 37%, 1);
+    }
+    .type{
+      left: 5px;
+    }
+    .status{
+      right: 5px;
+    }
+  }
+  .logo{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-color: #000;
+    border: 5px solid #202020;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    position: absolute;
+    top: 93px;
+    left: calc(50% - 32px);
+    z-index: 9;
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: scale-down;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      position: absolute; /* 相对定位 */
+      top: 50%; /* 将元素向上移动自身高度的一半 */
+      left: 50%; /* 将元素向左移动自身宽度的一半 */
+      transform: translate(-50%, -50%); /* 根据自身大小调整位置 */
+    }
+  }
+  .name{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 50px;
+    .title{
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-family: Chakra Petch,sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 120%;
+      color: #fff;
+    }
+    .description{
+      opacity: .5;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: Chakra Petch,sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 120%;
+      cursor: pointer;
+      height: 100px;
+      overflow: hidden
+    }
+  }
+  .link{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    a{
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-right: 10px;
+    }
+    a:last-child{
+      margin-right: 0;
+    }
+    a:hover{
+      background-color: transparent;
+    }
+    img{
+      width: 16px;
+
+    }
+  }
+}
+</style>

@@ -1,0 +1,11 @@
+{
+    "name": "Renzo",
+    "description": "The EigenLayer Liquid Restaking Hub",
+    "logo": "renzo.svg",
+    "bannerImg": "renzo.jpeg",
+    "type": "Yield",
+    "url": "https://www.renzoprotocol.com/",
+    "tiwwerUrl": "https://twitter.com/RenzoProtocol",
+    "discordUrl": "https://discord.com/invite/FMwGPDXXtf",
+    "status": "Live"
+}

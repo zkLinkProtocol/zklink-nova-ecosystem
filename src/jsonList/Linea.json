@@ -1,0 +1,11 @@
+{
+    "name": "Linea",
+    "description": "Building the most secure zkEVM ecosystem. Linea is where dapps thrive.",
+    "logo": "Linea.svg",
+    "bannerImg": "Linea.jpeg",
+    "type": "Network",
+    "url": "https://linea.build/",
+    "tiwwerUrl": "https://twitter.com/LineaBuild",
+    "discordUrl": "https://discord.com/invite/linea",
+    "status": "Live"
+}
