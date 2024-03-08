@@ -39,15 +39,15 @@ npm run lint
 
 #### First step
 
-You can add a .svg file in the `/src/assets/logo`  directory as the logo of the ecosystem you want to add. This file should be less than 1M.
+You can add an .svg file for the logo of the ecosystem you want to add in the `/src/assets/logo` directory. This file should be smaller than 1MB.
 
 #### Second step
 
-You can add a .jpeg file or a .png file in the `/src/assets/banner`  directory as the banner of the ecosystem you want to add. The size of the picture should be 1500*500, if not correct may affect the final display effect.
+You can add a .jpeg or .png file for the banner of the ecosystem you want to add in the `/src/assets/banner` directory. The image should be sized at 1500px*500px; deviations from this size may affect the final display.
 
 #### Third step
 
-You can add a .json file in the `/src/jsonList`  directory as the main body of the ecosystem you want to add. File configuration is as follows (we use Arbitrum as an example)：
+You can add a .json file as the main body for the ecosystem you want to add in the `/src/jsonList` directory. The file configuration is as follows (using Arbitrum as an example):
 
 ```bash
 {
@@ -64,33 +64,32 @@ You can add a .json file in the `/src/jsonList`  directory as the main body of t
 
 name: 
 
-The name of the ecosystem, will be displayed in the middle of the card.
+Please provide the name of the ecosystem that will be displayed in the center of the card.
 
 description:
 
-The description of the ecosystem, will be displayed below the name and should not exceed 150 in length.
+Please provide the description of the ecosystem that will be displayed below the name, and its length should not exceed 150 characters.
 
 logo: 
 
-The name of the file you added to `/src/assets/logo` in the first step, carries the file extension,like "Arbitrum.svg"
+Please provide the filename, including the file extension, that you added to `/src/assets/logo` in the first step. For example, "Arbitrum.svg".
 
 bannerImg:
 
-The name of the file you added to `/src/assets/banner` in the second step, carries the file extension,like "Arbitrum.jpeg". If you do not fill it in, we will display the default options
+Please provide the filename, including the file extension, that you add to `/src/assets/banner` in the second step. For example, "Arbitrum.jpeg". If you don't fill in the information, we will display the default image.
 
 type:
 
-the type of the ecosystem, we have options `Wallet Network Yield Defi Infra Social Liquidity Tools`, please select one of them, please do not add content other than these options, otherwise the ecosystem may not be displayed.
+Please provide the type of ecosystem falls into one of the following options: `Wallet Network Yield Defi Infra Social Liquidity Tools`. Please choose one from these options and refrain from adding any content outside of these options, as it may result in the inability to display the ecosystem you add.
 
 url:
 
-The official website of the ecosystem or other address recognized by the ecosystem, will be used for page redirection.
+Please provide the official website of the ecosystem or other recognized addresses. These will be used for page redirection.
 
 tiwwerUrl:
 
-The Twitter address of the ecosystem, if not filled, will not display the Twitter icon, will be used for page redirection.
+Please provide the Twitter address for the ecosystem. If left blank, the Twitter icon will not be displayed. the address will be used for page redirection.
 
 discordUrl:
 
-
-The Discord address of the ecosystem, if not filled, will not display the Discord icon, will be used for page redirection.
+Please provide the Discord address for the ecosystem. If left blank, the Discord icon will not be displayed. the address will be used for page redirection.
