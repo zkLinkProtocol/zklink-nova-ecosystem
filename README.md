@@ -1,3 +1,5 @@
+[//]: # (gist 0e1c750d35a9c5d5506d56d980b2cbfc)
+
 # zk.link Nova Ecosystem 🚀
 
 
