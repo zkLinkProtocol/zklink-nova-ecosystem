@@ -8,17 +8,35 @@ import Header from './components/Header.vue'
     <div class="wrapper">
       <Header />
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <!-- <RouterLink to="/about">About</RouterLink> -->
+        <RouterLink to="/">Ecosystem</RouterLink>
+        <a href="https://portal.zklink.io" target="_blank">Bridge</a>
+        <a href="https://explorer.zklink.io" target="_blank">Explorer</a>
+        <a href="https://github.com/zkLinkProtocol" target="_blank">Github</a>
+        <a href="https://docs.zklink.io" target="_blank">Docs</a>
       </nav>
       <div class="hidden"></div>
     </div>
   </header>
+    <div style="padding:25px 25px 60px 20px">
+    <h2 class="title" style="font-size: 3rem;font-weight: bold;">Explore zkLink Nova Ecosystem</h2>
+    <p class="content" style="font-size: 20px;">
+      Unlock the vibrant dApp landscape on zkLink Nova, the first aggregated Layer 3 ZK-Rollup network. Enjoy native asset aggregation across multiple chains, unified liquidity, ultra-low fees, and Ethereum-level security.
+    </p>
+  </div>
 
   <RouterView />
 </template>
 
 <style scoped>
+.title {
+  font-size: 2em; /* 调整标题的大小 */
+  color: #fff; /* 调整标题的颜色 */
+}
+
+.content {
+  color: #aaa; /* 调整内容的颜色 */
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
