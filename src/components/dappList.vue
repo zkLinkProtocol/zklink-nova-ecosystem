@@ -148,7 +148,7 @@ Object.keys(jsonList).map(async(i)=> {
       color: #fff;
     }
     .description{
-      opacity: .5;
+      opacity: 1;
       text-align: center;
       text-transform: uppercase;
       font-family: Chakra Petch,sans-serif;
