@@ -3,6 +3,9 @@ import selecttype from './selecttype.vue'
 import listbox from './listbox.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import { ref } from 'vue';
+const bannerImg = import.meta.glob('../assets/banner/*.jpeg')
+const bannerImg1 = import.meta.glob('../assets/banner/*.png')
+const logoImg = import.meta.glob('../assets/logo/*.svg')
 const jsonList = import.meta.glob('../jsonList/*.json')
 const searchList = (item:any) => {
   if (item.type && item.type !=='All') {
@@ -36,12 +39,12 @@ Object.keys(jsonList).map(async(i)=> {
   <div class="box">
     <div v-for="i in dappArr" class="listbox">
       <div class="header">
-        <img :src="'../assets/banner/'+(i.bannerImg || 'default.jpg')">
+        <img :src="'/ecosystem/src/assets/banner/'+(i.bannerImg || 'default.jpg')">
         <div class="type">{{ i.type }}</div>
         <!-- <div class="status">{{ i.status }}</div> -->
       </div>
       <div class="logo">
-        <img :src="'../assets/logo/'+i.logo">
+        <img :src="'/ecosystem/src/assets/logo/'+i.logo">
       </div>
       <div class="name">
         <div class="title">{{ i.name }}</div>
