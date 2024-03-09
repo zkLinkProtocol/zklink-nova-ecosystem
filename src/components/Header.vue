@@ -3,7 +3,7 @@
 
 <template>
   <div class="greetings">
-    <img src="../assets/image/logo.png" alt="">
+    <img src="/assets/image/logo.png" alt="">
   </div>
 </template>
 

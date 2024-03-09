@@ -1,12 +1,8 @@
 <script setup lang="ts">
 import selecttype from './selecttype.vue'
-import listbox from './listbox.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
 import { ref } from 'vue';
-const bannerImg = import.meta.glob('../assets/banner/*.jpeg')
-const bannerImg1 = import.meta.glob('../assets/banner/*.png')
-const logoImg = import.meta.glob('../assets/logo/*.svg')
-const jsonList = import.meta.glob('../jsonList/*.json')
+const jsonList = import.meta.glob('@/jsonList/*.json')
+const baseUrl = "/ecosystem/assets"
 const searchList = (item:any) => {
   if (item.type && item.type !=='All') {
     dappArr.value = arr.filter((i:any) => i.type === item.type)
@@ -39,12 +35,12 @@ Object.keys(jsonList).map(async(i)=> {
   <div class="box">
     <div v-for="i in dappArr" class="listbox">
       <div class="header">
-        <img :src="'/ecosystem/src/assets/banner/'+(i.bannerImg || 'default.jpg')">
+        <img :src="baseUrl + '/banner/'+(i.bannerImg || 'default.jpg')">
         <div class="type">{{ i.type }}</div>
         <!-- <div class="status">{{ i.status }}</div> -->
       </div>
       <div class="logo">
-        <img :src="'/ecosystem/src/assets/logo/'+i.logo">
+        <img :src="baseUrl + '/logo/'+i.logo">
       </div>
       <div class="name">
         <div class="title">{{ i.name }}</div>
@@ -52,13 +48,13 @@ Object.keys(jsonList).map(async(i)=> {
       </div>
       <div class="link">
         <a :href="i.url" target="_blank" rel="noopener" v-if="i.url">
-          <img src="../assets/image/link.svg" alt="">
+          <img :src="baseUrl + '/image/link.svg'" alt="">
         </a>
         <a :href="i.tiwwerUrl" target="_blank" rel="noopener" v-if="i.tiwwerUrl">
-          <img src="../assets/image/tiwwer.svg" alt="">
+          <img :src="baseUrl + '/image/tiwwer.svg'" alt="">
         </a>
         <a :href="i.discordUrl" target="_blank" rel="noopener" v-if="i.discordUrl">
-          <img src="../assets/image/discord-logo.svg" alt="">
+          <img :src="baseUrl + '/image/discord-logo.svg'" alt="">
         </a>
       </div>
     </div>
@@ -90,10 +86,10 @@ Object.keys(jsonList).map(async(i)=> {
       max-width: 100%;
       max-height: 115px;
       border-radius: 8px;
-      position: absolute; /* 相对定位 */
-      top: 50%; /* 将元素向上移动自身高度的一半 */
-      left: 50%; /* 将元素向左移动自身宽度的一半 */
-      transform: translate(-50%, -50%); /* 根据自身大小调整位置 */
+      position: absolute;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
     }
     div{
       position: absolute;
@@ -130,10 +126,10 @@ Object.keys(jsonList).map(async(i)=> {
       margin-left: auto;
       margin-right: auto;
       display: block;
-      position: absolute; /* 相对定位 */
-      top: 50%; /* 将元素向上移动自身高度的一半 */
-      left: 50%; /* 将元素向左移动自身宽度的一半 */
-      transform: translate(-50%, -50%); /* 根据自身大小调整位置 */
+      position: absolute; 
+      top: 50%; 
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
   .name{
