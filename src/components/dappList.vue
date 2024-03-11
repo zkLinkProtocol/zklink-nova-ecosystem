@@ -138,7 +138,7 @@ Object.keys(jsonList).map(async(i)=> {
     text-align: center;
     padding-top: 50px;
     .title{
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
       margin-top: 0;
       margin-bottom: 10px;
       font-family: Chakra Petch,sans-serif;
