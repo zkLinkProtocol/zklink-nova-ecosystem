@@ -1,0 +1,11 @@
+{
+  "name": "Ethereum",
+  "description": "Ethereum is a global, decentralized platform for money and new kinds of applications. On Ethereum, you can write code that controls money, and build applications accessible anywhere in the world.",
+  "logo": "Ethereum.svg",
+  "bannerImg": "Ethereum.jpeg",
+  "type": "Network",
+  "url": "https://ethereum.org/en/",
+  "tiwwerUrl": "https://twitter.com/ethdotorg",
+  "discordUrl": "https://discord.com/invite/ethereum-org",
+  "status": "Live"
+}

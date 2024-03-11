@@ -65,9 +65,9 @@ Object.keys(jsonList).map(async(i)=> {
 .box{
   width: 100%;
   display: flex;
-  justify-content: space-around;
   padding: 30px 0;
   flex-wrap: wrap;
+   gap: 3%;
 }
 .listbox {
   width: 30%;
@@ -155,9 +155,9 @@ Object.keys(jsonList).map(async(i)=> {
       font-size: 14px;
       font-weight: 400;
       line-height: 120%;
-      cursor: pointer;
       height: 100px;
-      overflow: hidden
+      overflow: hidden;
+      color: rgba(255, 255, 255, 0.7);
     }
   }
   .link{
