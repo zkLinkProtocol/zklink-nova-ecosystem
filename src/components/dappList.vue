@@ -150,7 +150,6 @@ Object.keys(jsonList).map(async(i)=> {
     .description{
       opacity: 1;
       text-align: center;
-      text-transform: uppercase;
       font-family: Chakra Petch,sans-serif;
       font-size: 14px;
       font-weight: 400;
