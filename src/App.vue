@@ -4,23 +4,13 @@ import Header from './components/Header.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <Header />
-      <nav>
-        <RouterLink to="/">Ecosystem</RouterLink>
-        <a href="https://portal.zklink.io" target="_blank">Bridge</a>
-        <a href="https://explorer.zklink.io" target="_blank">Explorer</a>
-        <a href="https://github.com/zkLinkProtocol" target="_blank">Github</a>
-        <a href="https://docs.zklink.io" target="_blank">Docs</a>
-      </nav>
-      <div class="hidden"></div>
-    </div>
-  </header>
-    <div style="padding:25px 25px 60px 20px">
-    <h2 class="title" style="font-size: 3rem;font-weight: bold;">Explore zkLink Nova Ecosystem</h2>
-    <p class="content" style="font-size: 20px;">
-      Unlock the vibrant dApp landscape on zkLink Nova, the first aggregated Layer 3 ZK-Rollup network. Enjoy native asset aggregation across multiple chains, unified liquidity, ultra-low fees, and Ethereum-level security.
+  <Header></Header>
+  <div style="padding: 25px 25px 60px 20px" class="description">
+    <h2 class="title" style="font-size: 3rem; font-weight: bold">Explore zkLink Nova Ecosystem</h2>
+    <p class="content" style="font-size: 20px">
+      Unlock the vibrant dApp landscape on zkLink Nova, the first aggregated Layer 3 ZK-Rollup
+      network. Enjoy native asset aggregation across multiple chains, unified liquidity, ultra-low
+      fees, and Ethereum-level security.
     </p>
   </div>
 
@@ -46,7 +36,7 @@ header {
   display: block;
   margin: 0 auto 2rem;
 }
-.hidden{
+.hidden {
   width: 15rem;
 }
 nav {
@@ -98,5 +88,8 @@ nav a:first-of-type {
     font-size: 2rem;
     margin-top: 0;
   }
+}
+.description {
+  margin-top: 100px;
 }
 </style>

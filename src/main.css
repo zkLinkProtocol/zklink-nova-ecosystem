@@ -14,12 +14,24 @@ a,
   transition: 0.4s;
   padding: 3px;
 }
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
 
-@media (hover: hover) {
+/* @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
-}
+} */
 
 @media (min-width: 1024px) {
   body {
