@@ -1,0 +1,10 @@
+{
+    "name": "Rarible",
+    "description": "Discover, sell and buy NFTs on Rarible!",
+    "logo": "Rarible.svg",
+    "bannerImg": "Rarible.jpg",
+    "type": "NFT",
+    "url": "https://rarible.com/",
+    "tiwwerUrl": "https://twitter.com/rarible",
+    "discordUrl": "https://discord.com/invite/rarible"
+}

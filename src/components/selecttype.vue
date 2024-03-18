@@ -3,7 +3,9 @@
     <div class="select">
       <input type="text" placeholder="Search" class="search" @input="search" v-model="value">
     </div>
-    <div class="tip" :class="{'active':selectType === i.name}" @click="changeType(i.name)" v-for="i in arr">{{ i.name }}</div>
+    <div class="tipBox">
+      <div class="tip" :class="{'active':selectType === i.name}" @click="changeType(i.name)" v-for="i in arr">{{ i.name }}</div>
+    </div>
   </div>
 </template>
 <style scoped>
@@ -20,11 +22,17 @@
   padding: 10px 20px;
   margin-right: 20px;
 }
+.tipBox{
+  width: calc(100% - 365px);
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
 .tip{
   padding-top: 10px;
   cursor: pointer;
   color: #7c7979;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 .active{
   color: #fff;
@@ -66,6 +74,9 @@ export default {
         {
           name: 'Tools'
         },
+        {
+          name: 'NFT'
+        }
       ],
       selectType: 'All',
       value: ''
