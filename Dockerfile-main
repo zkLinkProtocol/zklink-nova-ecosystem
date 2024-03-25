@@ -12,8 +12,8 @@ RUN npm install && npm run build
 
 FROM 475911326710.dkr.ecr.ap-northeast-1.amazonaws.com/nginx:alpine3.18
 
-RUN mkdir /build
+RUN mkdir /dist
 
-COPY --from=build /zklink-nova-echosystem/build /build
+COPY --from=build /zklink-nova-echosystem/dist /dist
 
 #CMD ["/bin/sh", "-c", "nginx -g 'daemon off;'"]
