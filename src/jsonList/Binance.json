@@ -1,0 +1,11 @@
+{
+    "name": "Binance Wallet",
+    "description": "Binance Web3 wallet is a keyless, seedless, multi-chain, semi-custody wallet",
+    "logo": "Binance.svg",
+    "bannerImg": "Binance.jpeg",
+    "type": "Wallet",
+    "url": "https://www.binance.com/en/web3wallet",
+    "tiwwerUrl": "https://twitter.com/Web3WithBinance",
+    "discordUrl": "",
+    "status": "Live"
+}

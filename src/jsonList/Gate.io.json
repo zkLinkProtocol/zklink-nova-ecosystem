@@ -1,0 +1,11 @@
+{
+    "name": "Gate.io Wallet",
+    "description": "Decentralised wallets, DEX trading, cross-chain technology, NFTs and dApps",
+    "logo": "Gate.svg",
+    "bannerImg": "Gate.jpeg",
+    "type": "Wallet",
+    "url": "https://www.gate.io/web3",
+    "tiwwerUrl": "https://twitter.com/GateDefi",
+    "discordUrl": "",
+    "status": "Live"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "OKX Wallet",
+    "description": "OKX Wallet is the world's most powerful crypto wallet.",
+    "logo": "OKX.svg",
+    "bannerImg": "OKX.jpeg",
+    "type": "Wallet",
+    "url": "https://www.okx.com/web3",
+    "tiwwerUrl": "https://twitter.com/okxweb3",
+    "discordUrl": "https://discord.com/invite/okx",
+    "status": "Live"
+}
