@@ -3,7 +3,7 @@
     "description": "With Mantle Network, an Ethereum rollup, Mantle Treasury, and a token holder governed roadmap for products and initiatives.",
     "logo": "Mantle.svg",
     "bannerImg": "Mantle.jpeg",
-    "type": "Network",
+    "type": "L1/L2",
     "url": "https://www.mantle.xyz/",
     "tiwwerUrl": "https://twitter.com/0xMantle",
     "discordUrl": "https://discord.com/invite/0xMantle",

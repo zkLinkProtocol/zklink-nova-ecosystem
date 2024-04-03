@@ -1,0 +1,10 @@
+{
+    "name": "BOOL",
+    "description": "Bool Network is a Bitcoin Verification Layer that turns all blockchains into Bitcoin's Layer 2.",
+    "logo": "BOOL.jpeg",
+    "bannerImg": "BOOL.jpeg",
+    "type": "Wallet",
+    "url": "https://bool.network",
+    "tiwwerUrl": "https://twitter.com/bool_official",
+    "discordUrl": "https://discord.com/invite/DVd4q9qq7a"
+}

@@ -3,7 +3,7 @@
     "description": "Meson is the faster and safer way to execute low-cost, zero-slippage BTC, ETH and Stablecoin cross-chain swaps.",
     "logo": "Meson.svg",
     "bannerImg": "Meson.jpg",
-    "type": "Infra",
+    "type": "Cross-chain",
     "url": "https://meson.fi/",
     "tiwwerUrl": "https://twitter.com/mesonfi",
     "discordUrl": "https://discord.com/invite/meson"

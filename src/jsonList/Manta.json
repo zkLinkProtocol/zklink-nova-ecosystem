@@ -3,7 +3,7 @@
     "description": "Manta Network | The Modular Blockchain for ZK Applications",
     "logo": "Manta.svg",
     "bannerImg": "manta.jpeg",
-    "type": "Network",
+    "type": "L1/L2",
     "url": "https://manta.network/",
     "tiwwerUrl": "https://twitter.com/mantanetwork",
     "discordUrl": "https://discord.com/invite/mantanetwork",

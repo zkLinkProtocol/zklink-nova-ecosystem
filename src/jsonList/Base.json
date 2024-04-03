@@ -1,0 +1,11 @@
+{
+  "name": "Base",
+  "description": "A new Ethereum L2, incubated by Coinbase and built on the open-source OP Stack.",
+  "logo": "Base.jpeg",
+  "bannerImg": "Base.jpeg",
+  "type": "L1/L2",
+  "url": "https://www.base.org/",
+  "tiwwerUrl": "https://twitter.com/base",
+  "discordUrl": "https://discord.com/invite/buildonbase",
+  "status": "Live"
+}

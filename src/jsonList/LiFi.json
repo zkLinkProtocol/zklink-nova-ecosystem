@@ -1,0 +1,10 @@
+{
+    "name": "Li.Fi",
+    "description": "One API for seamless swaps & bridging across EVM and Solana. Access 15+ bridges, 30+ DEXs & solvers.",
+    "logo": "LiFi.jpeg",
+    "bannerImg": "LiFi.jpeg",
+    "type": "Cross-chain",
+    "url": "https://jumper.exchange",
+    "tiwwerUrl": "https://twitter.com/lifiprotocol",
+    "discordUrl": "https://discord.com/invite/lifi"
+}

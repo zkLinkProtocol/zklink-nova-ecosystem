@@ -1,0 +1,10 @@
+{
+    "name": "KKEX",
+    "description": "KKEX is a decentralized perpetual contract exchange (perp DEX) native to zkLink Nova.",
+    "logo": "KKEX.jpeg",
+    "bannerImg": "KKEX.jpeg",
+    "type": "DEX",
+    "url": "https://www.kkex.io",
+    "tiwwerUrl": "https://twitter.com/kkex_io",
+    "discordUrl": ""
+}

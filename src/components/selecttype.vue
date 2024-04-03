@@ -51,32 +51,41 @@ export default {
           name: 'All'
         },
         {
+          name: 'DEX'
+        },
+        {
+          name: 'L1/L2'
+        },
+        {
+          name: 'LST/LRTs'
+        },
+        {
           name: 'Wallet'
-        },
-        {
-          name: 'Network'
-        },
-        {
-          name: 'Yield'
-        },
-        {
-          name: 'Defi'
         },
         {
           name: 'Infra'
         },
         {
-          name: 'Social'
+          name: 'Lending'
         },
         {
-          name: 'Liquidity'
+          name: 'Social'
+        },		
+        {
+          name: 'Cross-chain'
         },
         {
           name: 'Tools'
         },
         {
+          name: 'Liquidity'
+        },
+        {
           name: 'NFT'
-        }
+        },		
+        {
+          name: 'Oracles'
+        },				
       ],
       selectType: 'All',
       value: ''

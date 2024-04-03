@@ -1,9 +1,9 @@
 {
-    "name": "Nectar",
+    "name": "",
     "description": "World first Account Abstraction Exchange - low cost, fast and secure - by WASD3R",
     "logo": "Nectar.svg",
     "bannerImg": "Nectar.jpg",
-    "type": "Defi",
+    "type": "DEX",
     "url": "https://www.nectarx.io/",
     "tiwwerUrl": "https://twitter.com/nectarx_io",
     "discordUrl": ""

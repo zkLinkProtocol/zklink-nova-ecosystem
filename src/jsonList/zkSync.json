@@ -3,7 +3,7 @@
     "description": "zkSync is a ZK-rollup that represents the end-game for scaling Ethereum - scales its technology and values without degrading security or decentralization.",
     "logo": "zkSync.svg",
     "bannerImg": "zksync.png",
-    "type": "Network",
+    "type": "L1/L2",
     "url": "https://zksync.io/",
     "tiwwerUrl": "https://twitter.com/zksync",
     "discordUrl": "https://join.zksync.dev/",

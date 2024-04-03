@@ -5,7 +5,7 @@ const jsonList = import.meta.glob('@/jsonList/*.json')
 const baseUrl = "/ecosystem/assets"
 const searchList = (item:any) => {
   if (item.type && item.type !=='All') {
-    dappArr.value = arr.filter((i:any) => i.type === item.type)
+    dappArr.value = arr.filter((i:any) => i.type.includes(item.type))
   } else if (!item.value || (item.value && !item.value.trim())) {
     dappArr.value = arr
   }
@@ -17,13 +17,17 @@ const searchList = (item:any) => {
 };
 let dappArr:any = ref([])
 let arr:any = []
+let hideNum = 0
 Object.keys(jsonList).map(async(i)=> {
   const dapp = jsonList[i]
   arr = []
-  console.log(dapp)
   await dapp().then((res:any)=> {
-    arr.push(res.default)
-    if (arr.length === Object.keys(jsonList).length) {
+    if (res.default.name) {
+      arr.push(res.default)
+    } else {
+      hideNum ++
+    }
+    if ((arr.length + hideNum) === Object.keys(jsonList).length) {
       dappArr.value = arr
     }
   })

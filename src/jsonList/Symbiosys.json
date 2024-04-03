@@ -3,7 +3,7 @@
     "description": "Symbiosis is a cross-chain AMM DEX that pools together liquidity from different networks: L1s and L2s, EVM and non-EVM.",
     "logo": "Symbiosys.svg",
     "bannerImg": "Symbiosys.jpg",
-    "type": "Defi",
+    "type": "DEX Cross-chain",
     "url": "https://symbiosis.finance/",
     "tiwwerUrl": "https://twitter.com/symbiosis_fi",
     "discordUrl": "https://discord.com/invite/YHgDSJ42eG"
