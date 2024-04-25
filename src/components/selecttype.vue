@@ -85,7 +85,10 @@ export default {
         },		
         {
           name: 'Oracles'
-        },				
+        },
+        {
+          name: 'Stable Coin'
+        },
       ],
       selectType: 'All',
       value: ''

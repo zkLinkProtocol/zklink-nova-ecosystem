@@ -1,0 +1,10 @@
+{
+    "name": "OpenLayer",
+    "description": "OpenLayer is an SF-based startup scaling web3 through optimistic verifiable computation. Its first product OpenOracle is a user-operated data oracle built on Eigenlayer AVS.",
+    "logo": "OpenLayer.png",
+    "bannerImg": "OpenLayer.png",
+    "type": "Infra",
+    "url": "https://www.openlayer.tech",
+    "tiwwerUrl": "https://twitter.com/OpenLayerHQ",
+    "discordUrl": "https://discord.com/invite/9EXnvqNUZs"
+}
