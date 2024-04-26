@@ -2,6 +2,8 @@
   <div class="box">
     <div class="select">
       <input type="text" placeholder="Search" class="search" @input="search" v-model="value">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZWTHeAj9xIQ7usaa788UrfTnY_QZnMFCjJNNSYRqcHcEGXQ/viewform"
+        target="_blank" class="btn-add">Add your project</a>
     </div>
     <div class="tipBox">
       <div class="tip" :class="{'active':selectType === i.name}" @click="changeType(i.name)" v-for="i in arr">{{ i.name }}</div>
@@ -37,8 +39,43 @@
 .active{
   color: #fff;
 }
-@media (min-width: 1024px) {
-  
+
+.select {
+  display: flex;
+  flex-wrap: wrap;
+  width: 96%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-add {
+  outline: none;
+  padding: 10px 24px 10px 23px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #00BD7E;
+  color: #00BD7E;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+.btn-add:hover {
+  background: rgba(0, 189, 126, 0.20);
+
+}
+
+@media (min-width: 1024px) {}
+
+@media (max-width: 640px) {
+  .btn-add {
+    margin-top: 20px;
+  }
 }
 </style>
 <script>
