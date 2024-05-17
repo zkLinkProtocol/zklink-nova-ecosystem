@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div class="tabBox">
     <div class="select">
       <input type="text" placeholder="Search" class="search" @input="search" v-model="value">
     </div>
@@ -9,7 +9,7 @@
   </div>
 </template>
 <style scoped>
-.box{
+.tabBox{
   display: flex;
 }
 .search{
@@ -23,7 +23,7 @@
   margin-right: 20px;
 }
 .tipBox{
-  width: calc(100% - 365px);
+  width: calc(100% - 350px);
   display: flex;
   overflow: auto;
   white-space: nowrap;

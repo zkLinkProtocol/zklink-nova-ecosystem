@@ -71,7 +71,7 @@ Object.keys(jsonList).map(async(i)=> {
   display: flex;
   padding: 30px 0;
   flex-wrap: wrap;
-   gap: 3%;
+  gap: 3%;
 }
 .listbox {
   width: 30%;

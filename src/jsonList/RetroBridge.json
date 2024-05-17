@@ -1,0 +1,10 @@
+{
+    "name": "RetroBridge",
+    "description": "RetroBridge is a bridging solution that enables seamless integration across various networks, low fees, and support for both EVM and non-EVM networks. It aims to provide advanced infrastructure for swift blockchain integration and offers a stable bridging fee.",
+    "logo": "RetroBridge.png",
+    "bannerImg": "RetroBridge.jpeg",
+    "type": "Cross-chain",
+    "url": "https://retrobridge.io",
+    "tiwwerUrl": "https://twitter.com/retro_bridge",
+    "discordUrl": "https://discord.com/invite/polyhedra-network"
+}
