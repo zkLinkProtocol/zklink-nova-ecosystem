@@ -43,9 +43,10 @@
 .select {
   display: flex;
   flex-wrap: wrap;
-  width: 96%;
+  width: 570px;
   justify-content: space-between;
   align-items: center;
+  margin-right: 20px;
 }
 
 .btn-add {
