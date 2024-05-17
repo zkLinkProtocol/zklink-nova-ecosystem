@@ -190,4 +190,9 @@ Object.keys(jsonList).map(async(i)=> {
     }
   }
 }
+@media (max-width: 640px) {
+  .listbox {
+    width: 100%;
+  }
+}
 </style>
