@@ -25,7 +25,7 @@
   margin-right: 20px;
 }
 .tipBox{
-  width: calc(100% - 350px);
+  width: calc(100% - 500px);
   display: flex;
   overflow: auto;
   white-space: nowrap;
@@ -43,7 +43,7 @@
 .select {
   display: flex;
   flex-wrap: wrap;
-  width: 570px;
+  width: 480px;
   justify-content: space-between;
   align-items: center;
   margin-right: 20px;

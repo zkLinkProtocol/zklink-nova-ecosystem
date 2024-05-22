@@ -1,0 +1,10 @@
+{
+    "name": "Interport",
+    "description": "Interchain swaps allow trading assets across supported chains with no additional actions. Interport automatically routes swaps through the liquidity pool and triggers transactions on the destination chain.",
+    "logo": "Interport.svg",
+    "bannerImg": "Interport.png",
+    "type": "Cross-chain",
+    "url": "https://interport.fi/",
+    "tiwwerUrl": "https://twitter.com/interportfi",
+    "discordUrl": "https://discord.com/invite/interport"
+}

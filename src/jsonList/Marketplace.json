@@ -1,0 +1,11 @@
+{
+    "name": "OKX NFT Marketplace",
+    "description": "NFT Marketplace | Create, Buy & Trade NFTs",
+    "logo": "Marketplace.svg",
+    "bannerImg": "Marketplace.png",
+    "type": "NFT",
+    "url": "https://www.okx.com/web3/marketplace/nft",
+    "tiwwerUrl": "https://twitter.com/okxweb3",
+    "discordUrl": "https://discord.com/invite/2ZW42SS9g6",
+    "status": "Live"
+}
