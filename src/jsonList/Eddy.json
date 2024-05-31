@@ -1,0 +1,10 @@
+{
+    "name": "Eddy Finance",
+    "description": "Eddy Finance is an OmniChain DEX with a focus on increasing capital efficiency on zkLink Nova. By seamlessly creating and aggregating AMM, StableSwap, and CLAMMs, Eddy Finance ensures users access the best prices across a diverse array of assets, all while mitigating slippage.",
+    "logo": "Eddy.png",
+    "bannerImg": "Eddy.jpeg",
+    "type": "DEX",
+    "url": "https://eddy.finance/",
+    "tiwwerUrl": "https://x.com/eddy_protocol",
+    "discordUrl": ""
+}

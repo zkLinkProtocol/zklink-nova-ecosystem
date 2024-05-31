@@ -1,0 +1,10 @@
+{
+    "name": "Wagmi",
+    "description": "The WAGMI protocol operates as a limited TVL decentralized exchange with active liquidity management, GMI mechanics, and leverage.",
+    "logo": "Favicon.png",
+    "bannerImg": "Wagmi.jpeg",
+    "type": "DEX",
+    "url": "https://wagmi.com/",
+    "tiwwerUrl": "https://x.com/PopsicleFinance",
+    "discordUrl": ""
+}
