@@ -10,7 +10,8 @@ const searchList = (item:any) => {
     dappArr.value = arr
   }
   if (item.value && item.value.trim()) {
-    dappArr.value = arr.filter((i:any) => i.name.includes(item.value))
+    let regex = new RegExp(item.value, "i");
+    dappArr.value = arr.filter((i:any) => regex.test(i.name))
   } else if (!item.type || item.type ==='All') {
     dappArr.value = arr
   }
