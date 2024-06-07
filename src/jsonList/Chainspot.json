@@ -1,0 +1,10 @@
+{
+    "name": "Chainspot",
+    "description": "Cross-chain liquidity aggregator across EVM and non-EVM chains with analytical portal",
+    "logo": "Chainspot.png",
+    "bannerImg": "Chainspot.jpeg",
+    "type": "Cross-chain",
+    "url": "https://app.chainspot.io",
+    "tiwwerUrl": "https://twitter.com/ChainspotIO",
+    "discordUrl": ""
+}

@@ -10,7 +10,7 @@ const searchList = (item:any) => {
     dappArr.value = arr
   }
   if (item.value && item.value.trim()) {
-    dappArr.value = arr.filter((i:any) => i.name.includes(item.value))
+    dappArr.value = arr.filter((i:any) => i.name.toLowerCase().includes(item.value.toLowerCase()))
   } else if (!item.type || item.type ==='All') {
     dappArr.value = arr
   }
