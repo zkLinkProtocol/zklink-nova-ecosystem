@@ -127,6 +127,9 @@ export default {
         {
           name: 'Stable Coin'
         },
+        {
+          name: 'Node'
+        },
       ],
       selectType: 'All',
       value: ''

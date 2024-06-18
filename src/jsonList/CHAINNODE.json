@@ -1,0 +1,11 @@
+{
+    "name": "CHAINNODE",
+    "description": "Low-latency blockchain nodes for Web3 developers.",
+    "logo": "CHAINNODE.png",
+    "bannerImg": "CHAINNODE.jpeg",
+    "type": "Node",
+    "url": "https://www.chainnodes.org/",
+    "tiwwerUrl": "https://twitter.com/chainnodes",
+    "discordUrl": "",
+    "status": "Live"
+}

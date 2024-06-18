@@ -1,0 +1,11 @@
+{
+    "name": "Scroll",
+    "description": "Native zkEVM Layer 2 for Ethereum",
+    "logo": "Scroll.png",
+    "bannerImg": "Scroll.jpeg",
+    "type": "L1/L2",
+    "url": "https://scroll.io/",
+    "tiwwerUrl": "https://x.com/Scroll_ZKP",
+    "discordUrl": "https://discord.com/invite/scroll",
+    "status": "Live"
+}
