@@ -1,0 +1,11 @@
+{
+    "name": "FxWallet",
+    "description": "FxWallet is a cutting-edge digital wallet designed to streamline your cryptocurrency management with ease and security. Offering a user-friendly interface and robust features, FxWallet allows you to store, send, and receive a variety of cryptocurrencies seamlessly. Experience enhanced financial freedom and control with FxWallet.",
+    "logo": "FxWallet.png",
+    "bannerImg": "FxWallet.jpeg",
+    "type": "Wallet",
+    "url": "https://fxwallet.com",
+    "tiwwerUrl": "https://x.com/FxWallet",
+    "discordUrl": "https://discord.com/invite/D72TzTFFJu",
+    "status": "Live"
+}

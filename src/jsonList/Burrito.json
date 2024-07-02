@@ -1,0 +1,11 @@
+{
+    "name": "Burrito Wallet",
+    "description": "A Bithumb Korea subsidiary, Burrito Wallet is a secure and user-friendly mobile wallet. Indeed it is a Let's wrap it up with Burrito Wallet!    Burrito Wallet is a user-friendly crypto wallet where users can   ✔️ manage multi-chain assets(Eth, Sol, & 30+ more) ✔️ swap 1,500+ assets at the best rates,  ✔️ trade tokens, NFTs with friends in chat ✔️ share and care with in-app community space ✔️ get rewards by learning about different ecosystems ✔️ earn Burrito Points for actively participating in Burrito Wallet ✔️ easily transfer cryptro from CEX (e.g. Bithumb)  ✔️ semi-KYCed & whitelisted and 100% compliant   Burrito is one-stop space for both crypto users and ecosystem; tap into 200k active South Koreans through Burrito Wallet",
+    "logo": "Burrito.png",
+    "bannerImg": "Burrito.jpeg",
+    "type": "Wallet",
+    "url": "https://www.burritowallet.com/en",
+    "tiwwerUrl": "https://twitter.com/BurritoWallet",
+    "discordUrl": "",
+    "status": "Live"
+}
