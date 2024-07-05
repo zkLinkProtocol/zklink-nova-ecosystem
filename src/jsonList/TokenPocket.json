@@ -1,6 +1,6 @@
 {
     "name": "TokenPocket",
-    "description": "TokenPocket is the world's leading multi-chain self-custodial wallet and supports EVM-compatible networks such as Ethereum, BNB Chain, Polygon, and Ethereum Layer2, as well as non-EVM-compatible networks like Bitcoin, TRON, Solana, and Dogecoin. The Recovery Phrase and Private Key are stored in the user’s own device and the user can fully control his own crypto assets.",
+    "description": "TokenPocket is the world's leading multi-chain self-custodial wallet and supports EVM-compatible networks such as Ethereum, BNB Chain, Polygon, and Ethereum Layer2, as well as non-EVM-compatible networks like Bitcoin, TRON, Solana, and Dogecoin.",
     "logo": "TokenPocket.png",
     "bannerImg": "TokenPocket.jpeg",
     "type": "Wallet",
