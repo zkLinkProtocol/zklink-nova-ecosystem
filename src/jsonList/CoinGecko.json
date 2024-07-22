@@ -1,0 +1,11 @@
+{
+    "name": "CoinGecko",
+    "description": "CoinGecko is the world's largest independent crypto data aggregator.",
+    "logo": "CoinGecko.jpg",
+    "bannerImg": "CoinGecko.jpeg",
+    "type": "Tools",
+    "url": "https://www.coingecko.com/",
+    "tiwwerUrl": "https://x.com/coingecko",
+    "discordUrl": "https://discord.com/invite/EhrkaCH",
+    "status": "Live"
+}
