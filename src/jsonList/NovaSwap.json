@@ -1,0 +1,10 @@
+{
+    "name": "NovaSwap",
+    "description": "NovaSwap is the native DEX on zkLink Nova, with multi-layer yields & multi-chain-aggregated assets in one place.",
+    "logo": "NovaSwap.png",
+    "bannerImg": "NovaSwap.jpeg",
+    "type": "DEX",
+    "url": "https://novaswap.fi/",
+    "tiwwerUrl": "https://x.com/NovaSwap_fi",
+    "discordUrl": ""
+}
