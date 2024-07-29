@@ -1,0 +1,11 @@
+{
+    "name": "MathWallet",
+    "description": "MathWallet is the Multichain Wallet for Web3 that enables token storage of over one hundred chains including BTC, ETH, Polkadot, Cosmos, Filecoin, Solana, BNBChain, etc, supports cross-chain token bridges and multi-chain dApp store. Our investors include Fenbushi Capital, Binance Labs, Fundamental Labs, Multicoin Capital, NGC Ventures, Amber Group, 6Eagle Capital. Visit mathwallet.org for more information.",
+    "logo": "MathWallet.jpg",
+    "bannerImg": "MathWallet.jpeg",
+    "type": "Wallet",
+    "url": "https://mathwallet.org",
+    "tiwwerUrl": "https://x.com/MathWallet",
+    "discordUrl": "https://discord.com/invite/gXSfnk5eP5",
+    "status": "Live"
+}
