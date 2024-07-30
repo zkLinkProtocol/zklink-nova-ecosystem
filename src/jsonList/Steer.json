@@ -1,0 +1,10 @@
+{
+    "name": "Steer Protocol",
+    "description": "Decentralized Abstraction Layer for Consumer Protocol, Helping web3 protocols to use Steer modular infrastructure to create cross-chain composable abstraction, Unlocking the Creation Of omni-chain data-driven apps. Currently focused on liquidity abstraction apps on DEX's for automated liquidity management & customised on-chain reward distribution.",
+    "logo": "Steer.png",
+    "bannerImg": "Steer.jpeg",
+    "type": "Infra",
+    "url": "https://steer.finance/",
+    "tiwwerUrl": "https://x.com/steerprotocol",
+    "discordUrl": "https://discord.com/invite/M3Xjvv3Zfg"
+}
