@@ -40,7 +40,7 @@ Object.keys(jsonList).map(async(i)=> {
     <div v-for="i in dappArr" class="listbox">
       <div class="header">
         <img :src="baseUrl + '/banner/'+(i.bannerImg || 'default.jpg')">
-        <div class="type">{{ i.type }}</div>
+        <!-- <div class="type">{{ i.type }}</div> -->
         <!-- <div class="status">{{ i.status }}</div> -->
       </div>
       <div class="logo">
