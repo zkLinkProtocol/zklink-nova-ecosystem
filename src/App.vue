@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+const baseUrl = "/ecosystem/assets"
 </script>
 
 <template>
   <Header></Header>
+  <img :src="baseUrl + '/image/leftTop.png'" alt="" class="leftTop">
+  <img :src="baseUrl + '/image/rightTop.png'" alt="" class="rightTop">
   <div style="padding: 25px 25px 60px 20px" class="description">
     <h2 class="title" style="font-size: 3rem; font-weight: bold">Explore zkLink Nova Ecosystem</h2>
     <p class="content" style="font-size: 20px">
@@ -12,19 +16,22 @@ import Header from './components/Header.vue'
       network. Enjoy native asset aggregation across multiple chains, unified liquidity, ultra-low
       fees, and Ethereum-level security.
     </p>
+  <img :src="baseUrl + '/image/topLogo.svg'" alt="" class="topLogo">
   </div>
 
   <RouterView />
+  <Footer></Footer>
 </template>
 
 <style scoped>
 .title {
-  font-size: 2em; /* 调整标题的大小 */
-  color: #fff; /* 调整标题的颜色 */
+  font-size: 2em;
+  color: #fff;
 }
 
 .content {
-  color: #aaa; /* 调整内容的颜色 */
+  color: #aaa;
+  width: 85%;
 }
 
 header {
@@ -90,6 +97,25 @@ nav a:first-of-type {
   }
 }
 .description {
-  margin-top: 100px;
+  margin-top: 200px;
+  position: relative;
+}
+.leftTop{
+  position: absolute;
+  left: 0;
+  top: 5%;
+  z-index: -1;
+}
+.rightTop{
+  position: absolute;
+  right: 0;
+  top: 5%;
+  z-index: -1;
+}
+.topLogo{
+  position: absolute;
+  right: -150px;
+  top: -130px;
+  z-index: -1;
 }
 </style>

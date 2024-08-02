@@ -2,8 +2,10 @@
   <div class="tabBox">
     <div class="select">
       <input type="text" placeholder="Search" class="search" @input="search" v-model="value">
+      <img :src="baseUrl + '/image/Vector.png'" alt="" class="Vector">
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZWTHeAj9xIQ7usaa788UrfTnY_QZnMFCjJNNSYRqcHcEGXQ/viewform"
-        target="_blank" class="btn-add">Add your project</a>
+        target="_blank" class="btn-add">Add your project 
+      <img :src="baseUrl + '/image/Chevron.png'" alt="" class="Chevron"></a>
     </div>
     <div class="tipBox">
       <div class="tip" :class="{'active':selectType === i.name}" @click="changeType(i.name)" v-for="i in arr">{{ i.name }}</div>
@@ -12,26 +14,28 @@
 </template>
 <style scoped>
 .tabBox{
-  display: flex;
+  /* display: flex; */
 }
 .search{
   outline: none;
-  font-size: 1.5rem;
-  border: 0;
-  border-radius: 20px;
+  font-size: 1.2rem;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 30px;
   color: #fff;
-  background-color: #333;
-  padding: 10px 20px;
-  margin-right: 20px;
+  background-color: transparent;
+  padding: 15px 20px 15px 50px;
+  width: 50%;
 }
 .tipBox{
-  width: calc(100% - 500px);
+  width: 100%;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 30px;
   display: flex;
   overflow: auto;
   white-space: nowrap;
+  padding: 10px 20px 10px 20px;
 }
 .tip{
-  padding-top: 10px;
   cursor: pointer;
   color: #7c7979;
   margin-right: 15px;
@@ -41,22 +45,29 @@
 }
 
 .select {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  width: 480px;
+  position: relative;
+  /* flex-wrap: wrap;
+  width: 480px; */
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
+  margin-bottom: 20px;
 }
-
+.Vector{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 20px;
+}
 .btn-add {
   outline: none;
-  padding: 10px 24px 10px 23px;
+  padding: 15px 28px 15px 28px;
   justify-content: center;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 30px;
   border: 1px solid #00BD7E;
-  color: #00BD7E;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -64,11 +75,16 @@
   letter-spacing: -0.5px;
   cursor: pointer;
   transition: all ease 0.2s;
+  background-color: #03D498;
 }
 
 .btn-add:hover {
   background: rgba(0, 189, 126, 0.20);
-
+}
+.Chevron{
+  display: inline-block;
+  width: 13px;
+  margin-left: 10px;
 }
 
 @media (min-width: 1024px) {}
@@ -132,7 +148,8 @@ export default {
         },
       ],
       selectType: 'All',
-      value: ''
+      value: '',
+      baseUrl: "/ecosystem/assets"
     };
   },
   methods: {

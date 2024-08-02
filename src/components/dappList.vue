@@ -62,6 +62,8 @@ Object.keys(jsonList).map(async(i)=> {
         </a>
       </div>
     </div>
+    <img :src="baseUrl + '/image/leftTop.png'" alt="" class="leftTop">
+    <img :src="baseUrl + '/image/rightTop.png'" alt="" class="rightTop">
   </div>
 
 </template>.
@@ -72,6 +74,21 @@ Object.keys(jsonList).map(async(i)=> {
   padding: 30px 0;
   flex-wrap: wrap;
   gap: 3%;
+  position: relative;
+  background-image: url('/ecosystem/assets/image/center.png');
+  background-size: 100%;
+  .leftTop{
+    position: absolute;
+    left: calc(640px - 2rem - 50vw);
+    bottom: 0;
+    z-index: -1;
+  }
+  .rightTop{
+    position: absolute;
+    right: calc(640px - 1rem - 50vw);
+    bottom: 0;
+    z-index: -1;
+  }
 }
 .listbox {
   width: 30%;
