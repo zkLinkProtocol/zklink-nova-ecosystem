@@ -1,10 +1,10 @@
 {
     "name": "AlienSwap",
-    "description": "The NFT marketplace and aggregator for people, the leading multi-chain NFT trading layer.",
-    "logo": "AlienSwap.jpeg",
-    "bannerImg": "AlienSwap.jpeg",
+    "description": "AlienSwap is an NFT marketplace that allows users to trade and collect NFTs in a decentralized manner.",
+    "logo": "AlienSwap.png",
+    "bannerImg": "AlienSwap.png",
     "type": "NFT",
-    "url": "https://alienswap.xyz",
-    "tiwwerUrl": "https://twitter.com/AlienSwap_NFT",
+    "url": "https://alienswap.io",
+    "tiwwerUrl": "https://twitter.com/AlienswapNFT",
     "discordUrl": "https://discord.gg/6SzkW9hNRa"
 }

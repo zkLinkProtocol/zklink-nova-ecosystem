@@ -1,0 +1,11 @@
+{
+    "name": "Gate.io Wallet",
+    "description": "Gate.io Wallet is a multi-functional cryptocurrency wallet provided by Gate.io, offering secure storage and easy management of digital assets.",
+    "logo": "Gate.jpg",
+    "bannerImg": "GateIo.jpeg",
+    "type": "Wallet",
+    "url": "https://www.gate.io/en",
+    "tiwwerUrl": "https://twitter.com/gate_io",
+    "discordUrl": "https://discord.com/invite/QZWFkuQvzP",
+    "status": "Live"
+}

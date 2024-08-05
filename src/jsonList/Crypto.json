@@ -1,0 +1,11 @@
+{
+    "name": "Crypto.com Wallet",
+    "description": "Crypto.com Wallet is a secure and user-friendly cryptocurrency wallet that allows users to store, send, and receive various digital assets.",
+    "logo": "Crypto.jpg",
+    "bannerImg": "Crypto.jpeg",
+    "type": "Wallet",
+    "url": "https://crypto.com/us/wallet",
+    "tiwwerUrl": "https://twitter.com/cryptocom",
+    "discordUrl": "https://discord.com/invite/cryptocom",
+    "status": "Live"
+}

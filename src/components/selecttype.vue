@@ -146,6 +146,9 @@ export default {
         {
           name: 'Node'
         },
+        {
+          name: 'Launchpad'
+        }
       ],
       selectType: 'All',
       value: '',

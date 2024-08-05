@@ -1,0 +1,11 @@
+{
+    "name": "POKT Network",
+    "description": "POKT Network is a decentralized infrastructure protocol that provides a secure and efficient means for developers to access blockchain data through a network of distributed nodes.",
+    "logo": "POKT.jpg",
+    "bannerImg": "POKT.png",
+    "type": "Node",
+    "url": "https://pokt.network",
+    "tiwwerUrl": "https://twitter.com/POKTnetwork",
+    "discordUrl": "https://discord.com/invite/pokt",
+    "status": "Live"
+}

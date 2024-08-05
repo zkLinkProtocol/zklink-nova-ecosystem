@@ -1,10 +1,10 @@
 {
     "name": "LogX",
-    "description": "Orderbook Perps with AI trading agents & intelligent risk management. ",
+    "description": "LogX is a decentralized logistics platform leveraging blockchain technology to optimize supply chain and logistics operations.",
     "logo": "LogX.jpeg",
     "bannerImg": "LogX.jpeg",
     "type": "DEX",
-    "url": "https://logx.trade",
-    "tiwwerUrl": "https://twitter.com/LogX_trade",
+    "url": "https://logx.io",
+    "tiwwerUrl": "https://twitter.com/LogXnetwork",
     "discordUrl": "https://discord.com/invite/logx"
 }

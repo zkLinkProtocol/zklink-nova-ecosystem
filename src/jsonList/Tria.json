@@ -1,9 +1,9 @@
 {
     "name": "Tria",
-    "description": "Abstraction layer 1 for modular chains ✤ Think Web3, Think Tria.",
+    "description": "Tria offers seamless onboarding and authentication solutions for applications, enhancing security and user experience across the board.",
     "logo": "Tria.jpeg",
     "bannerImg": "Tria.jpeg",
-    "type": "Infra",
+    "type": "Wallet",
     "url": "https://www.tria.so",
     "tiwwerUrl": "https://twitter.com/useTria",
     "discordUrl": "https://discord.gg/triabuilders"

@@ -1,10 +1,10 @@
 {
     "name": "Async",
-    "description": "Native Payment + Dex + Lending One-stop Defi Solution",
-    "logo": "Async.jpeg",
+    "description": "Async Finance is a platform for programmable and interactive NFTs, allowing users to create and collect dynamic and evolving digital art pieces.",
+    "logo": "Async.jpg",
     "bannerImg": "Async.jpeg",
     "type": "DEX",
-    "url": "https://www.async.finance",
-    "tiwwerUrl": "https://twitter.com/AsyncFinance",
+    "url": "https://async.art",
+    "tiwwerUrl": "https://twitter.com/asyncart",
     "discordUrl": ""
 }
