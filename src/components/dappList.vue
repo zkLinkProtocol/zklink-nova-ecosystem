@@ -49,7 +49,7 @@ Object.keys(jsonList).map(async (i) => {
     <div v-for="i in dappArr" class="listbox">
       <div class="header">
         <img :src="baseUrl + '/banner/' + (i.bannerImg || 'default.jpg')" />
-        <div class="live" v-if="i?.isLiveOnNova">Live</div>
+        <div class="live" v-if="i?.isLiveOnNova">LIVE</div>
         <!-- <div class="type">{{ i.type }}</div> -->
         <!-- <div class="status">{{ i.status }}</div> -->
       </div>
@@ -140,6 +140,10 @@ Object.keys(jsonList).map(async (i) => {
       top: 17px;
       left: 12px;
       color: #fff;
+      font-weight: 700;
+      font-size: 12px;
+      border-radius: 6px;
+      background: linear-gradient(90deg, #03d498 0%, #0395ff 100%);
     }
   }
   .logo {
