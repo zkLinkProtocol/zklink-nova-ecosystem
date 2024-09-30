@@ -7,5 +7,6 @@
     "url": "https://native.org/",
     "tiwwerUrl": "https://twitter.com/native_fi",
     "discordUrl": "https://discord.com/invite/nativefi",
-    "status": "Live"
+    "status": "Live",
+    "isLiveOnNova": true
 }

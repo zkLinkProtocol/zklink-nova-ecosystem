@@ -6,5 +6,6 @@
     "type": "Lending",
     "url": "https://layerbank.xyz",
     "tiwwerUrl": "https://twitter.com/LayerBank",
-    "discordUrl": ""
+    "discordUrl": "",
+    "isLiveOnNova": true
 }

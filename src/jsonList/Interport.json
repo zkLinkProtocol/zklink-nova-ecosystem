@@ -6,5 +6,6 @@
     "type": "Cross-chain",
     "url": "https://interport.fi/",
     "tiwwerUrl": "https://twitter.com/interportfi",
-    "discordUrl": "https://discord.com/invite/interport"
+    "discordUrl": "https://discord.com/invite/interport",
+    "isLiveOnNova": true
 }

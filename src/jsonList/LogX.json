@@ -6,5 +6,6 @@
     "type": "DEX",
     "url": "https://logx.io",
     "tiwwerUrl": "https://twitter.com/LogXnetwork",
-    "discordUrl": "https://discord.com/invite/logx"
+    "discordUrl": "https://discord.com/invite/logx",
+    "isLiveOnNova": true
 }

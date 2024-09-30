@@ -6,5 +6,6 @@
     "type": "DEX",
     "url": "https://novaswap.fi/",
     "tiwwerUrl": "https://x.com/NovaSwap_fi",
-    "discordUrl": ""
+    "discordUrl": "",
+    "isLiveOnNova": true
 }

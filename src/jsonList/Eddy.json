@@ -6,5 +6,6 @@
     "type": "DEX",
     "url": "https://eddy.finance/",
     "tiwwerUrl": "https://x.com/eddy_protocol",
-    "discordUrl": "https://discord.com/invite/37zcAqscEv"
+    "discordUrl": "https://discord.com/invite/37zcAqscEv",
+    "isLiveOnNova": true
 }

@@ -7,5 +7,6 @@
     "url": "https://www.orbiter.finance/",
     "tiwwerUrl": "https://twitter.com/Orbiter_Finance",
     "discordUrl": "https://discord.com/invite/orbiter-finance",
-    "status": "Live"
+    "status": "Live",
+    "isLiveOnNova": true
 }

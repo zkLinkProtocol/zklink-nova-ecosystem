@@ -6,5 +6,6 @@
     "type": "NFT",
     "url": "https://app.znsconnect.io/",
     "tiwwerUrl": "https://twitter.com/ZNSConnect",
-    "discordUrl": "https://discord.com/invite/skbA5Ucmmc"
+    "discordUrl": "https://discord.com/invite/skbA5Ucmmc",
+    "isLiveOnNova": true
 }

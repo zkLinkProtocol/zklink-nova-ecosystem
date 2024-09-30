@@ -6,5 +6,6 @@
     "type": "Cross-chain",
     "url": "https://meson.fi/",
     "tiwwerUrl": "https://twitter.com/mesonfi",
-    "discordUrl": "https://discord.com/invite/meson"
+    "discordUrl": "https://discord.com/invite/meson",
+    "isLiveOnNova": true
 }

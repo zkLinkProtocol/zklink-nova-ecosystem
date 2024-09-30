@@ -6,5 +6,6 @@
     "type": "DEX Cross-chain",
     "url": "https://symbiosis.finance/",
     "tiwwerUrl": "https://twitter.com/symbiosis_fi",
-    "discordUrl": "https://discord.com/invite/YHgDSJ42eG"
+    "discordUrl": "https://discord.com/invite/YHgDSJ42eG",
+    "isLiveOnNova": true
 }

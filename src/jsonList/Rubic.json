@@ -6,5 +6,6 @@
     "type": "DEX Cross-chain",
     "url": "https://rubic.exchange/",
     "tiwwerUrl": "https://twitter.com/CryptoRubic",
-    "discordUrl": "https://discord.com/invite/7EYzPbWKFQ"
+    "discordUrl": "https://discord.com/invite/7EYzPbWKFQ",
+    "isLiveOnNova": true
 }

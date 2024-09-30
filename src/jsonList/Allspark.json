@@ -6,5 +6,6 @@
     "type": "DEX",
     "url": "https://allspark.finance/",
     "tiwwerUrl": "https://x.com/AllsparkFinance",
-    "discordUrl": "https://discord.com/invite/bnYJ4mKmNc"
+    "discordUrl": "https://discord.com/invite/bnYJ4mKmNc",
+    "isLiveOnNova": true
 }

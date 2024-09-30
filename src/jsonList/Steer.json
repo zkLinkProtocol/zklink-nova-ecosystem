@@ -6,5 +6,6 @@
     "type": "Infra",
     "url": "https://steer.finance/",
     "tiwwerUrl": "https://x.com/steerprotocol",
-    "discordUrl": "https://discord.com/invite/M3Xjvv3Zfg"
+    "discordUrl": "https://discord.com/invite/M3Xjvv3Zfg",
+    "isLiveOnNova": true
 }

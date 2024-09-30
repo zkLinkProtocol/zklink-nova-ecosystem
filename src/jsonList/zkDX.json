@@ -7,5 +7,6 @@
     "url": "https://zkdx.io/",
     "tiwwerUrl": "https://twitter.com/zkDXio",
     "discordUrl": "https://discord.com/invite/ZukCWPaZbp",
-    "status": "Live"
+    "status": "Live",
+    "isLiveOnNova": true
 }

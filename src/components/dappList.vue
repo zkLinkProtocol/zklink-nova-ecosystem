@@ -1,33 +1,42 @@
 <script setup lang="ts">
 import selecttype from './selecttype.vue'
-import { ref } from 'vue';
+import { ref } from 'vue'
 const jsonList = import.meta.glob('@/jsonList/*.json')
-const baseUrl = "/ecosystem/assets"
-const searchList = (item:any) => {
-  if (item.type && item.type !=='All') {
-    dappArr.value = arr.filter((i:any) => i.type.includes(item.type))
+const baseUrl = '/ecosystem/assets'
+const searchList = (item: any) => {
+  if (item.type && item.type !== 'All') {
+    dappArr.value = arr.filter((i: any) => i.type.includes(item.type))
   } else if (!item.value || (item.value && !item.value.trim())) {
     dappArr.value = arr
   }
   if (item.value && item.value.trim()) {
-    dappArr.value = arr.filter((i:any) => i.name.toLowerCase().includes(item.value.toLowerCase()))
-  } else if (!item.type || item.type ==='All') {
+    dappArr.value = arr.filter((i: any) => i.name.toLowerCase().includes(item.value.toLowerCase()))
+  } else if (!item.type || item.type === 'All') {
     dappArr.value = arr
   }
-};
-let dappArr:any = ref([])
-let arr:any = []
+}
+let dappArr: any = ref([])
+let arr: any = []
+let arr1: any = []
+let arr2: any = []
 let hideNum = 0
-Object.keys(jsonList).map(async(i)=> {
+Object.keys(jsonList).map(async (i) => {
   const dapp = jsonList[i]
-  arr = []
-  await dapp().then((res:any)=> {
+  arr1 = []
+  arr2 = []
+  await dapp().then((res: any) => {
     if (res.default.name) {
-      arr.push(res.default)
+      if (!!res.default.isLiveOnNova) {
+        arr1.push(res.default)
+      } else {
+        arr2.push(res.default)
+      }
     } else {
-      hideNum ++
+      hideNum++
     }
-    if ((arr.length + hideNum) === Object.keys(jsonList).length) {
+
+    arr = arr1.concat(arr2)
+    if (arr.length + hideNum === Object.keys(jsonList).length) {
       dappArr.value = arr
     }
   })
@@ -35,40 +44,41 @@ Object.keys(jsonList).map(async(i)=> {
 </script>
 
 <template>
-  <selecttype @searchList="searchList"/>
+  <selecttype @searchList="searchList" />
   <div class="box">
     <div v-for="i in dappArr" class="listbox">
       <div class="header">
-        <img :src="baseUrl + '/banner/'+(i.bannerImg || 'default.jpg')">
+        <img :src="baseUrl + '/banner/' + (i.bannerImg || 'default.jpg')" />
+        <div class="live" v-if="i?.isLiveOnNova">Live</div>
         <!-- <div class="type">{{ i.type }}</div> -->
         <!-- <div class="status">{{ i.status }}</div> -->
       </div>
       <div class="logo">
-        <img :src="baseUrl + '/logo/'+i.logo">
+        <img :src="baseUrl + '/logo/' + i.logo" />
       </div>
       <div class="name">
         <div class="title">{{ i.name }}</div>
-        <div class="description">{{i.description }}</div>
+        <div class="description">{{ i.description }}</div>
       </div>
       <div class="link">
         <a :href="i.url" target="_blank" rel="noopener" v-if="i.url">
-          <img :src="baseUrl + '/image/link.svg'" alt="">
+          <img :src="baseUrl + '/image/link.svg'" alt="" />
         </a>
         <a :href="i.tiwwerUrl" target="_blank" rel="noopener" v-if="i.tiwwerUrl">
-          <img :src="baseUrl + '/image/tiwwer.svg'" alt="">
+          <img :src="baseUrl + '/image/tiwwer.svg'" alt="" />
         </a>
         <a :href="i.discordUrl" target="_blank" rel="noopener" v-if="i.discordUrl">
-          <img :src="baseUrl + '/image/discord-logo.svg'" alt="">
+          <img :src="baseUrl + '/image/discord-logo.svg'" alt="" />
         </a>
       </div>
     </div>
-    <img :src="baseUrl + '/image/leftTop.png'" alt="" class="leftTop">
-    <img :src="baseUrl + '/image/rightTop.png'" alt="" class="rightTop">
+    <img :src="baseUrl + '/image/leftTop.png'" alt="" class="leftTop" />
+    <img :src="baseUrl + '/image/rightTop.png'" alt="" class="rightTop" />
   </div>
-
-</template>.
+</template>
+.
 <style scoped>
-.box{
+.box {
   width: 100%;
   display: flex;
   padding: 30px 0;
@@ -77,13 +87,13 @@ Object.keys(jsonList).map(async(i)=> {
   position: relative;
   background-image: url('/ecosystem/assets/image/center.png');
   background-size: 100%;
-  .leftTop{
+  .leftTop {
     position: absolute;
     left: calc(640px - 2rem - 50vw);
     bottom: 0;
     z-index: -1;
   }
-  .rightTop{
+  .rightTop {
     position: absolute;
     right: calc(640px - 1rem - 50vw);
     bottom: 0;
@@ -98,35 +108,41 @@ Object.keys(jsonList).map(async(i)=> {
   text-align: center;
   position: relative;
   margin-bottom: 20px;
-  .header{
+  .header {
     width: 100%;
     position: relative;
     z-index: 2;
     height: 115px;
-    img{
+    img {
       max-width: 100%;
       max-height: 115px;
       border-radius: 8px;
       position: absolute;
-      top: 50%; 
-      left: 50%; 
-      transform: translate(-50%, -50%); 
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
-    div{
+    div {
       position: absolute;
       top: 5px;
       padding: 4px 12px;
       border-radius: 4px;
       background-color: hsla(160, 100%, 37%, 1);
     }
-    .type{
+    .type {
       left: 5px;
     }
-    .status{
+    .status {
       right: 5px;
     }
+
+    .live {
+      top: 17px;
+      left: 12px;
+      color: #fff;
+    }
   }
-  .logo{
+  .logo {
     display: inline-block;
     width: 64px;
     height: 64px;
@@ -140,38 +156,42 @@ Object.keys(jsonList).map(async(i)=> {
     top: 93px;
     left: calc(50% - 32px);
     z-index: 9;
-    img{
+    img {
       max-width: 100%;
       max-height: 100%;
       object-fit: scale-down;
       margin-left: auto;
       margin-right: auto;
       display: block;
-      position: absolute; 
-      top: 50%; 
+      position: absolute;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
   }
-  .name{
+  .name {
     width: 100%;
     margin-top: 20px;
     text-align: center;
     padding-top: 50px;
-    .title{
+    .title {
       /* text-transform: uppercase; */
       margin-top: 0;
       margin-bottom: 10px;
-      font-family: Chakra Petch,sans-serif;
+      font-family:
+        Chakra Petch,
+        sans-serif;
       font-size: 24px;
       font-weight: 400;
       line-height: 120%;
       color: #fff;
     }
-    .description{
+    .description {
       opacity: 1;
       text-align: center;
-      font-family: Chakra Petch,sans-serif;
+      font-family:
+        Chakra Petch,
+        sans-serif;
       font-size: 14px;
       font-weight: 400;
       line-height: 120%;
@@ -180,13 +200,13 @@ Object.keys(jsonList).map(async(i)=> {
       color: rgba(255, 255, 255, 0.7);
     }
   }
-  .link{
+  .link {
     padding-top: 30px;
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    a{
+    a {
       width: 32px;
       height: 32px;
       cursor: pointer;
@@ -195,15 +215,14 @@ Object.keys(jsonList).map(async(i)=> {
       display: flex;
       margin-right: 10px;
     }
-    a:last-child{
+    a:last-child {
       margin-right: 0;
     }
-    a:hover{
+    a:hover {
       background-color: transparent;
     }
-    img{
+    img {
       width: 16px;
-
     }
   }
 }

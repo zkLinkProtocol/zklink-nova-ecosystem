@@ -7,5 +7,6 @@
     "url": "https://izumi.finance/",
     "tiwwerUrl": "https://twitter.com/izumi_Finance",
     "discordUrl": "https://discord.com/invite/izumifinance",
-    "status": "Live"
+    "status": "Live",
+    "isLiveOnNova": true
 }

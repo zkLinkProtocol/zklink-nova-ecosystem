@@ -6,5 +6,6 @@
     "type": "NFT",
     "url": "https://skyrangers.io",
     "tiwwerUrl": "https://x.com/OfficialSkyRang",
-    "discordUrl": ""
+    "discordUrl": "",
+    "isLiveOnNova": true
 }
